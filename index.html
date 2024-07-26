@@ -38,12 +38,122 @@
 <body>
   <noscript>Your browser does not support JavaScript</noscript>
   <!-- Start Codes-->
+
+<!-- Internedia Form and Table -->
+<h1>Internedia Form and Table</h1>
+<form>
+  <table>
+    <!-- name -->
+    <tr>
+      <td><label for="uname">ADINIZ:</label></td>
+      <td><input 
+        type="text" 
+        id="uname"
+        name="uname"
+        required
+        placeholder="Adınızı giriniz"
+        title="Adınızı giriniz"
+        autofocus
+        >
+      </td>
+    </tr>
+    <!-- surname -->
+    <tr>
+      <td> <label for="usurname">SOYADINIZ:</label></td>
+      <td><input 
+        type="text" 
+        id="usurname"
+        name="usurname"
+        required
+        placeholder="Soyadınızı giriniz"
+        title="Soyadınızı giriniz"
+        >
+      </td>
+    </tr>
+    <!-- email -->
+    <tr>
+      <td> <label for="uemail">EMAİL:</label></td>
+      <td><input 
+        type="email" 
+        id="uemail"
+        name="uemail"
+        required
+        placeholder="Email giriniz"
+        title="Email giriniz"
+        >
+      </td>
+    </tr>
+    <!-- password -->
+
+    <tr>
+      <td> <label for="upassword">PASSWORD:</label></td>
+      <td><input 
+        type="password" 
+        id="upassword"
+        name="upassword"
+        required
+        placeholder="Şifrenizi  giriniz"
+        title="Şifrenizi giriniz"
+        minlength="3"
+        maxlength="10"
+        pattern="[a-zA-Z0-9]{3,10}"
+        >
+      </td>
+    </tr>
+
+     <!-- Gender -->
+
+     <tr>
+      <td> <label >GENDER:</label></td>
+      <td>
+        <input 
+        type="radio" 
+        id="female"
+        name="gender"
+        checked
+        >Kadın
+
+        <input 
+        type="radio" 
+        id="male"
+        name="gender"
+        checked
+        >Erkek
+      </td>
+    </tr>
+
+     <!-- Date -->
+
+     <tr>
+      <td> <label for="udate">DATE:</label></td>
+      <td>
+        <input 
+        type="date" 
+        id="udate"
+        name="udate"
+        >
+
+      </td>
+    </tr>
+
+    <!-- button -->
+    <tr>
+      <td></label></td>
+      <td><input type="reset">
+        <button type="submit">Gönder</button>
+      </td>
+      
+    </tr>
+  </table>
+
+</form>
+
+<hr>
+  <hr>
   <!-- Basic Form and Table -->
 
   <h1>Basic Form and Table</h1>
   <form>
-
-
     <table>
       <!-- name -->
       <tr>
